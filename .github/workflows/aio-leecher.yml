@@ -7,7 +7,7 @@ on:
         description: >
           Enter one or more URLs (newlines, commas, or spaces) with optional shortcuts or raw yt-dlp arguments.
            If you want to use expert mode please read the README.md
-          --- Shortcut mode ---
+          --- Shortcut mode (adds quality to filename) ---
             Arguments: `v` (video) or `a` (audio) followed by quality:
               Video: `max` | `min` | height (e.g. 480, 720, 1080, 4k) [optional fps e.g. `1080 30`]
               Audio: `max` | `min` | bitrate in kbps (e.g. 128, 192, 320)
